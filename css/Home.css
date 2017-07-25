@@ -1,0 +1,35 @@
+body {
+    padding-top: 40px;
+}
+
+#nav ul li {
+    float: left;
+    margin-right: 30px;
+    line-height: 40px;
+}
+
+#theText {
+    margin-top: 60px;
+}
+
+#bigphoto img{
+    max-width: 100%;
+    height: auto;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+}
+
+/* iPad Portrait/Browser */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #theText {
+        margin-top: 20px;
+    }
+}
+
+/* Mobile/Browser */
+@media only screen and (max-width: 767px) {
+    #theText {
+        margin-top: 10px;
+    }
+}
